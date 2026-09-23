@@ -19,3 +19,5 @@ Conecta redes que geográficamente distantes , a veces en distintas ciudades , p
 ## Comparacion por alcance 
 -Pan(Una persona)
 -LAN/WAN (un edificio)
+
+![[Pasted image 20260922200642.png]]
