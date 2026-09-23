@@ -19,5 +19,7 @@ Conecta redes que geográficamente distantes , a veces en distintas ciudades , p
 ## Comparacion por alcance 
 -Pan(Una persona)
 -LAN/WAN (un edificio)
+-Campus area network (varios edificios de una organizacion)
+-WAN (ciudades o paises)
 
 ![[Pasted image 20260922200642.png]]
