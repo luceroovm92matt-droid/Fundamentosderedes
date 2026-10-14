@@ -13,6 +13,9 @@ Yo considero muy importantes las redes ya que nos facilitan mucho em todo , por 
 
 una red computacional es un sistema complejo de intercambio de informacion , requeriendo una combinacion de infraestroctura fisica y reglas logicas para una comunidad efectiva
 
+
+### Actividad 1.3
+
 ### 1 Nodos: El origen y Destino
 
 Son dispositivos de inicio y destino como:
@@ -72,7 +75,7 @@ Conceptos Clave
 
 
 
-## 3er Apunte 
+## Actividad 1.4 
 
 
 ## 4 Características que deben tener las redes hoy en dia
@@ -96,11 +99,6 @@ Ataques mas comunes
 -Denegacion de servicio (DoS / DDoS)
 -Acceso no autorizado a un punto de acceso inalambrico
 -Pishing e ingenieria social
-
-
-
-## 4 Apunte 
-
 
 Arquitectura de redes
 
@@ -158,7 +156,13 @@ Encapsulamiento
 
 Al bajar por las capas , cada una envuelve el dato con su propio encabezado ; al llegar al destino , el proceso se invierte y cada retira el encabezado que le corresponde
 
-Trabajo en clase 
+
+
+
+###Actividad 1.5
+
+
+
 
 ### Arquitectura client - Servidor
 -Que es?
