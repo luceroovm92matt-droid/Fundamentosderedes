@@ -9,12 +9,12 @@ Yo espero aprender a manejar bien la configuracion basica de redes
 
 Yo considero muy importantes las redes ya que nos facilitan mucho em todo , por ejemplo en la comunicación ah avanzado mucho
 
+
+### Actividad 1.3
  ### Los 5 pilares de una red
 
 una red computacional es un sistema complejo de intercambio de informacion , requeriendo una combinacion de infraestroctura fisica y reglas logicas para una comunidad efectiva
 
-
-### Actividad 1.3
 
 ### 1 Nodos: El origen y Destino
 
