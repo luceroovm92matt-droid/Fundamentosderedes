@@ -201,3 +201,73 @@ Diferencias:
 - **Tablas IP y MAC:** Inspecciona tanto el encabezado Ethernet como el paquete IP (direcciones IP de origen y destino)
 
 - **Enrutamiento Inter-VLAN por Hardware:** Realiza enrutamiento de alta velocidad mediante hardware especializado (ASICs) a través de **SVIs** (_Switched Virtual Interfaces_) o puertos enrutados
+
+
+### Fibra Òptica
+
+Que es?
+Es un cable de vidrio o plástico muy delgado que transmite los datos como pulsos de luz en lugar de señales eléctricas
+
+Es un cable de vidrio o plástico muy delgado que transmite los datos como pulsos de luz en lugar de señales eléctricas
+
+La luz viaja por el núcleo y rebota en sus paredes por reflexión total interna, porque el revestimiento que lo rodea desvía la luz de vuelta hacia adentro
+
+De adentro hacia afuera: el núcleo, que conduce la luz; el revestimiento, que la mantiene dentro; el recubrimiento, que protege el vidrio; y la cubierta exterior
+
+### Fibra Monomodo
+
+Tiene un núcleo muy delgado (cerca de 9 micras ) por donde viaja un solo haz de luz, generado con laser alcanza decenas de kilómetros
+
+-Componentes de un enlace de fibra
+
+Se necesita el cable de fibra con conectores en sus extremos y un transceptor (SFP) que convierte la señal eléctrica en luz; un convertidor de medios une equipos de cobre con la fibra.
+
+-Transceptores (SFP)
+
+Es un módulo intercambiable que se inserta en el puerto del switch o router y convierte la señal eléctrica en luz y la luz en señal eléctrica; se elige según el tipo de fibra, la distancia y la velocidad
+
+-Tipos de transceptores
+
+Por velocidad: SFP 1 Gbps, SFP+ 10 Gbps, SFP28 25 Gbps, QSFP+ 40 Gbps y QSFP28 100 Gbps.
+Por fibra: SX para multimodo y LX para monomodo
+
+-Ventajas de la fibra óptica
+
+Ofrece mucho ancho de banda, llega a mayores distancias, es inmune a la interferencia electromagnética y es más difícil de intervenir sin ser detectado
+
+-Desventajas de la fibra óptica
+
+Los equipos y conectores cuestan más, la instalación y los empalmes requieren herramientas especializadas, y el cable es frágil si se dobla demasiado
+
+-Donde se usa la fibra óptica 
+
+En el backbone de internet, en los cables submarinos, en los enlaces entre edificios de un campus y en los centros de datos
+
+-UTP frente a fibra óptica
+
+UTP: señal eléctrica, hasta 100 m, económico, sensible a la interferencia.
+
+Fibra: pulsos de luz, desde cientos de metros hasta decenas de kilómetros, más costosa, inmune a la interferencia
+
+-Dirección MAC
+
+La dirección MAC es el identificador de 48 bits que tiene cada tarjeta de red y que sirve para identificar el origen y el destino de una trama dentro de la LAN
+
+ -Para qué sirve la MAC
+ 
+Los switches usan la MAC, para decidir porque puerto reenviar cada trama y construyen su tabal de direcciones aprendiendo la MAC de origen
+
+Unicast, Multicast y brodcast
+
+Según a cuántos equipos va dirigida, una comunicación puede ser unicast (a uno), multicast (a un grupo) o broadcast (a todos).
+
+-Unicast en el switch
+
+El switch busca la MAC de destino en su tabla de direcciones y envía la trama solo por el puerto donde está ese equipo; si no la conoce, la inunda por todos los puertos
+
+-Multicast: de uno a un grupo
+La trama de grupo de equipos que se unieron a él; los démas la ignoran. EN IPv4 usa direcciones 224.0.0.0 a 239.255.255 y MAC que empiezan con 01:00:5E
+
+-Broadcast: de uno a todo
+
+La tarma llega a todos los equipos de la red, con MAC de destino FF:FF:FF:FF:FF:FF; todos la reciben y la procesan
