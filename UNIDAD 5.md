@@ -73,5 +73,28 @@ DHCP usa UDP: el servidor escucha en el puerto 67 y el cliente en el 68.
 El broadcast no cruza routers: un router con ip helper-address reenvía las solicitudes a un servidor en otra red (relay).
 
 
+### Act. 3.2 (24/11/26)
 
+### -  Capa 2
 
+Que es?
+creo que es la que se encarga de organizar algunos datos y se mandan entre dispositivos
+
+Para que sirve?
+sirve para que no se choquen entre si y asi no se confundan
+
+### - Capa 3 
+
+Que es?
+este tambien es el encargado de mover los datos pero a distancia mas lejana entre dispositivos igual mediante paquetes
+
+Para que sirve?
+Sirve para que llege bien a su destino sin perder la ubicacion hasta el receptor quien lo recibe
+
+### - Capa 4
+
+Que es?
+este lo que hace es una organizacion mas detallada como dividirlos 
+
+Para que sirve?
+Da ordenes como la capa tres al repartir la entrega completada
